@@ -1,0 +1,47 @@
+body{
+	font-family:"Microsoft Yahei",΢���ź�,"Helvetica Neue",Arial,sans-serif;
+	font-size:16px;
+	background:url(../images/bg.jpg) center no-repeat;
+	
+}
+
+header{
+	background: url(../images/logo.png) center no-repeat;
+	background-color:#54BDA8;
+	filter:alpha(opacity=80);
+	opacity:0.5;
+	height:89px;
+	color:black;
+}
+
+header .account>a{
+	float:right;
+	padding-right:50px;
+	line-height: 40px;
+	color:black;
+   
+}
+
+header .search{
+    margin-left:1px;
+}
+
+main{
+	margin:0 auto;
+	margin-top:1px;
+	width:950px;
+	height:499px;
+}
+
+main table th{
+	text-align:center;
+	height:40px;
+	
+}
+
+main table td{
+	
+	text-align:center;
+	height:40px;
+	
+}

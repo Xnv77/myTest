@@ -1,0 +1,437 @@
+@CHARSET "UTF-8";
+
+body{
+	text-align: center;
+    font-family:"Microsoft Yahei",΢���ź�,"Helvetica Neue",Arial,sans-serif;
+	font-size:16px;
+	<!--background:url(../images/zh.jpg) norepeat ;-->
+	background-color:#FFFFCC;
+	
+}
+
+	.bg .login .form-group{
+	padding:10px 30px;
+	margin-left:0; 
+	}
+	
+	.bg .login button{
+	margin:0 30px;
+	color:#54BDA8;
+	}
+	
+	header logo{
+	height:89px;
+	text-align:center;
+
+}
+.form-group {
+    margin-top: 30px;
+    float:right;
+    margin-right:180px;
+}
+header search{
+	text-align:right;
+}
+header .wrap{
+	text-align:left;
+}
+header .account{
+	text-align:left;
+	
+}
+header .account>a{
+	float:right;
+	padding-right:50px;
+	line-height: 40px;
+	color:black;
+   
+}
+
+main{
+    margin-top:20px;
+    margin-left:300px;
+    margin-right:300px;
+    }
+.btn-primary {
+    color: #fff;
+    background-color: #996633;
+    border-color: #663300;
+}
+header{
+	background: url(../images/logo.png)  250px no-repeat ;
+    background-color:#FFFFCC;
+    filter:alpha(opacity=70);
+	opacity:0.5;
+	height:120px;
+	color:black;
+}
+
+header li{
+    float: right;
+    margin-left: 25px;
+}
+
+header li a:hover{
+    color: #6AD89C;
+}
+
+
+#top{
+    height: 100px;
+    width: 100%;
+    border-bottom: 2px solid #DDDDDD;
+}
+
+.nav li{
+    float: left;
+    padding: 38px 20px 1px 31px;
+    margin-left:238px;
+    background: TRANSPARENT;
+    position: relative;
+}
+.nav li a{
+    color: #996633;
+    font-size: 15px;
+    FONT-WEIGHT: BOLD;
+    
+}
+
+lunbo{
+	margin-top:20px;
+	float:left;
+	margin-left:210px;
+	width:950px;
+	height:499px;
+}
+
+main table th{
+    padding-left:50px;
+    textalign:center;
+	height:40px;
+	
+}
+
+main table td{
+	padding-left:70px;
+	height:40px;
+	 textalign:center;
+	
+}
+
+#online_first{
+    margin-top: 530px;
+    width: 100%;
+
+}
+#online_first li{
+    float: left;
+    width: 128px;
+    height: 130px;
+    overflow: hidden;
+    position: relative;
+    margin:10px;
+    }
+#online_first li img{
+    width: 128px;
+}
+
+#online_first h3{
+    position: absolute;
+    bottom: 30px;
+    color: #0CC65B;
+    font-size: 13px;
+    top: 90px;
+    left: 5px;
+    z-index: 3;
+}
+#online_first span{
+    position: absolute;
+    bottom: 4px;
+    font-size: 12px;
+    left: 5px;
+    z-index: 3;
+    color: #D1FFA4;
+}
+#online_first .btn{
+    position: absolute;
+    display: none;
+    width: 18px;
+    height: 18px;
+    background: url(../img/icon_play.png)no-repeat -1px -1px;
+    top: 50px;
+    right: 5px;
+}
+#online_first li:hover .btn{
+    display: inline-block;
+}
+#online_first li .btn:hover{
+    background: url(../img/icon_play.png)no-repeat -21px -1px;
+}
+
+.nav li div{
+    position: absolute;
+    bottom: -12px;
+    display: none;
+}
+
+#side_left{
+    width: 700px;
+}
+
+#scroll_bar{
+    position: relative;
+    height: 280px;
+    width: 700px;
+    text-align:center;
+}
+#pre,#next{
+    position: absolute;
+    width: 40px;
+    height: 80px;
+    background-color: #000000;
+    color: #ffffff;
+    line-height: 80px;
+    text-align: center;
+    font-size: 40px;
+    opacity: 0.6;
+    top: 100px;
+    cursor: pointer;
+}
+#pre{
+    left: 0px;
+}
+#next{
+    right: 0px;
+}
+#pre:hover,#next:hover{
+    opacity: 0.7;
+}
+#circle_section{
+    height: 20px;
+    width: 240px;
+    position: absolute;
+    /*background-color: #000000;*/
+    bottom: 15px;
+    left: 230px;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000000;
+    opacity: 0.2;
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.circle:hover{
+    opacity: 0.4;
+}
+.section_top{
+	/*改原创新歌首发位置*/
+    padding-left: 75px;   
+    margin-bottom: 22px;
+}
+.section_top h1{
+    display: inline-block;
+    margin-right:12px;
+    font-size: 25px;
+    color: #333333;
+}
+.section_top a,.hot_singer_title a{
+    color: #0C8F44;
+    font-size: 14px;
+}
+.section_top .pre{
+    background: url(../img/icon_sprite.png)no-repeat -33px -96px;
+}
+.section_top .next{
+    background: url(../img/icon_sprite.png)no-repeat 0px -129px;
+}
+.section_top .pre,.section_top .next{
+    display: inline-block;
+    width: 31px;
+    height: 30px;
+}
+.section_top .next:hover{
+    background: url(../img/icon_sprite.png)no-repeat -64px -129px;
+}
+
+#music_list{  
+    margin-top: 22px;
+}
+
+#music_list h1{
+	margin-left:85px;
+}
+
+#music_list li{
+    width: 160px;
+    height: 160px;
+    float: left;
+    position: relative;
+}
+#music_list img{
+    width: 160px;
+    height: 90px;
+}
+#music_list .mv_name,#ranking_list h5 a,.singer_list a,.act_content  p a{
+    font-size: 12px;
+    color: #0C8F44;
+}
+#music_list .mv_name:hover,#ranking_list h5 a:hover,.singer_list a:hover,.act_content p a:hover{
+    color: #00CC33;
+}
+#music_list p span{
+    padding: 0px 2px;
+}
+#music_list .singer_name,#ranking_list p a,.rank_index a{
+    font-size: 12px;
+    color: #515151;
+}
+#music_list .singer_name:hover,#ranking_list p a:hover,.rank_index a:hover{
+    color: #000000;
+}
+#music_list p{
+    font-size: 12px;
+    color: #8B8B8B;
+}
+#music_list li p a{
+    line-height: 34px;
+}
+#music_list li>span{
+    font-size: 12px;
+    color: #B8B8D7;
+    float: right;
+    margin-top: 8px;
+}
+#music_list .mv_btn{
+    position: absolute;
+    display: none;
+    width: 18px;
+    height: 18px;
+    background: url(../img/icon_play.png)no-repeat -1px -1px;
+    right: 5px;
+    bottom: 75px;
+}
+#music_list li:hover .mv_btn{
+    display: inline-block;
+}
+#music_list .mv_btn:hover{
+    background: url(../img/icon_play.png)no-repeat -21px -1px;
+}
+#recommend{
+    margin-top: 37px;
+}
+#recommend h1{
+	margin-left:120px;
+}
+
+.broadcast{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(../img/icon_sprite.png)no-repeat 0px -64px;
+    margin: 0px 10px 0px 8px;
+}
+.broadcast:hover{
+    background: url(../img/icon_sprite.png)no-repeat -30px -64px;
+}
+.add{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(../img/icon_sprite.png)no-repeat -56px -285px;
+}
+.add:hover{
+    background: url(../img/icon_sprite.png)no-repeat -88px -285px;
+}
+.language a,.area a{
+	padding-left:20px;
+    font-size: 12px;
+    line-height: 30px;
+    color: #0C8F44;
+}
+.language a:hover,.area a:hover{
+    color: #00CC33;
+}
+.language span,.area span{
+    font-size: 12px;
+    padding: 0 6px 0;
+    color: #D8D8D8;
+}
+
+.language .select,.area .select{
+    color: #3DC192;
+    font-weight: bold;
+}
+.recommend_list span,.recommend_singer,.recommend_song{
+    font-size: 13px;
+    line-height: 37px;
+}
+.recommend_song{
+    color:#3DC192;
+}
+.recommend_song:hover{
+    color: #58B16B;
+}
+.recommend_list span{
+    display: inline-block;
+    padding: 0 3px;
+}
+.recommend_singer{
+    color: #515151;
+}
+.recommend_singer:hover{
+    color: #000000;
+}
+#hot_recommend{
+    float: left;
+    margin-left: 14px;
+    border-left: 2px solid #E5E5E5;
+}
+
+#hot_recommend h1{
+	padding-left:538px;
+}
+
+#hot_recommend ul{
+    margin-left: 516px;
+}
+#choice{
+    margin-top: 26px;
+}
+.choice_left{
+    width: 271px;
+}
+.choice_left a,.choice_right a{
+    font-size: 12px;
+    color: #0C8F44;
+}
+.choice_left a:hover,.choice_right a:hover{
+    color: #00cc33;
+}
+.choice_left span{
+    font-size: 12px;
+    color: #8B8B8B;
+    padding-top: 6px;
+    display: inline-block;
+}
+.choice_right{
+    margin-left: 15px;
+}
+.choice_right ul{
+    width: 414px;
+}
+.choice_right li{
+    float: left;
+    width: 130px;
+}
+.choice_right img{
+    width: 130px;
+    height: 130px;
+}
+#side_right{
+    width: 224px;
+    margin-left: 36px;
+}
